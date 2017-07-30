@@ -1,5 +1,6 @@
 """
 Simple script that demonstrates a signup and login page using tkinter
+Tutorial credit: SirRobo (YouTube)
 """
 from tkinter import *
 import os
