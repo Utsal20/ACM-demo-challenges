@@ -1,3 +1,6 @@
+"""
+Simple script that demonstrates a signup and login page using tkinter
+"""
 from tkinter import *
 import os
 
@@ -22,7 +25,7 @@ def Signup():
     pwordL.grid(row = 2, column = 0, sticky = W)
 
     nameE = Entry(roots)
-	# show = '*' only shows astericks, not the characters typed
+    # show = '*' only shows astericks, not the characters typed
     pwordE = Entry(roots, show='*')
     nameE.grid(row=1, column=1)
     pwordE.grid(row=2, column=1)
